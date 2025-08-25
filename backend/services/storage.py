@@ -9,7 +9,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-class S3StorageService:
+class S3StorageService :
     def __init__(self):
         self.s3_client = boto3.client(
             's3',
